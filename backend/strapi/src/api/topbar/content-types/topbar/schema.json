@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "topbars",
+  "info": {
+    "singularName": "topbar",
+    "pluralName": "topbars",
+    "displayName": "topbar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "labelContent": {
+      "type": "string",
+      "unique": false,
+      "default": "null"
+    },
+    "showLabel": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
